@@ -41,11 +41,11 @@ public class ExpressoFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.boba1,
-                        "Coffee Expresso",
-                        "Toast Text",
-                        "Milk Name",
-                        "Description"
+                        R.drawable.hotespressodetailed,
+                        "Hot espresso",
+                        "Premium Toasted",
+                        "Whole milk",
+                        "Savor the deep, bold essence of our Hot Espresso, a rich and aromatic brew crafted for true coffee lovers. Each sip is a smooth, invigorating experience, perfectly balancing intensity and warmth, making it the ultimate pick-me-up for espresso enthusiasts seeking pure coffee bliss."
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }
@@ -56,11 +56,11 @@ public class ExpressoFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.mangoboba_1__1_,
-                        "Coffee Expresso2",
-                        "Toast Text",
-                        "Milk Name",
-                        "Description"
+                        R.drawable.americanodetailed,
+                        "Americano",
+                        "Premium Toasted",
+                        "Whole milk",
+                        "Enjoy the crisp, smooth taste of our Americano, a perfectly balanced blend of rich espresso and hot water. Each sip delivers a bold yet mellow flavor, highlighting the deep, aromatic essence of coffee, making it the ideal choice for those who appreciate a pure, invigorating brew."
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }
