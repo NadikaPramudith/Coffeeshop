@@ -38,11 +38,11 @@ public class CappuccinoFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.boba1,
-                        "Coffee Cappu",
-                        "Toast Text",
-                        "Milk Name",
-                        "Description"
+                        R.drawable.wetcappuccinodetailed,
+                        "Wet Cappuccino",
+                        "Arabica Beans",
+                        "Steamed Milk",
+                        "Enjoy the rich, smooth taste of our Wet Cappuccino, a perfect blend of bold espresso and silky steamed milk. Each sip offers a creamy, well-balanced flavor with a light, velvety texture, making it the ultimate choice for those who love a softer, indulgent coffee experience."
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }
@@ -53,11 +53,11 @@ public class CappuccinoFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.mangoboba_1__1_,
-                        "Coffee Cappu2",
-                        "Toast Text",
-                        "Milk Name",
-                        "Description"
+                        R.drawable.vanilacappuccinodetailed,
+                        "Vanila Cappuccino",
+                        "Arabica Beans",
+                        "Steamed Milk",
+                        "Savor the smooth, creamy taste of our Vanilla Cappuccino, a perfect blend of bold espresso, velvety steamed milk, and sweet vanilla. Each sip offers a rich, aromatic flavor with a hint of warmth, making it the ultimate treat for those who love a subtly sweet and indulgent coffee experience."
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }

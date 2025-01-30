@@ -38,11 +38,11 @@ public class LatteFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.boba1,
+                        R.drawable.caremellattedetailed,
                         "Coffee Latte",
-                        "Toast Text",
-                        "Milk Name",
-                        "Description"
+                        "Medium Toast",
+                        "Almond Milk",
+                        "Indulge in the luscious, smooth taste of our Caramel Latte, a perfect blend of bold espresso, velvety steamed milk, and sweet caramel. Each sip offers a rich, buttery flavor with a hint of warmth, making it the ultimate treat for those who crave a sweet and creamy coffee delight."
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }
@@ -53,11 +53,11 @@ public class LatteFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.mangoboba_1__1_,
-                        "Coffee Latte2",
-                        "Toast Text",
-                        "Milk Name",
-                        "Description"
+                        R.drawable.cofeelattedetailed,
+                        "Coffee Latte",
+                        "Medium Toast",
+                        "Almond Milk",
+                        "Delight in the creamy, smooth taste of our Coffee Latte, a perfect harmony of bold espresso and velvety steamed milk. Each sip offers a rich, balanced flavor with a touch of natural sweetness, making it the ultimate choice for those who love a silky, comforting coffee experience."
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }

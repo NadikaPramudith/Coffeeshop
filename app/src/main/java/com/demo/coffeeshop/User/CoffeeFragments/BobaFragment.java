@@ -39,11 +39,11 @@ public class BobaFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.avacado_boba_icon,
+                        R.drawable.avacadobobadetailed,
                         "Avacado Boba",
-                        "Toast Text",
-                        "Milk Name",
-                        "Avacado Boba"
+                        "Boba Pearls",
+                        "Oat Milk",
+                        "Delight in the creamy, refreshing taste of our Avocado Boba, a perfect fusion of rich avocado, smooth milk, and chewy tapioca pearls. Each sip offers a luscious, velvety texture with a hint of natural sweetness, making it the ultimate treat for boba lovers seeking a unique and indulgent experience."
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }
@@ -54,11 +54,11 @@ public class BobaFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.mangoboba_1__1_,
+                        R.drawable.mangobobadetailed,
                         "Coffee Boba2",
-                        "Toast Text",
-                        "Milk Name",
-                        "Description"
+                        "Boba Pearls",
+                        "Oat Milk",
+                        "Enjoy the tropical, refreshing taste of our Mango Boba, a perfect blend of juicy mango, creamy milk, and chewy tapioca pearls. Each sip bursts with sweet, vibrant flavor and a smooth, luscious texture, making it the ultimate treat for boba lovers craving a fruity and delightful experience."
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }
