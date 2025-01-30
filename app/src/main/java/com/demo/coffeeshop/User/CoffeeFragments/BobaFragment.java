@@ -39,11 +39,11 @@ public class BobaFragment extends Fragment {
             if (getActivity() instanceof UserActivity) {
                 UserActivity activity = (UserActivity) getActivity();
                 CoffeeDetailsFragment coffeeDetailsFragment = CoffeeDetailsFragment.newInstance(
-                        R.drawable.boba1,
-                        "Coffee Boba",
+                        R.drawable.avacado_boba_icon,
+                        "Avacado Boba",
                         "Toast Text",
                         "Milk Name",
-                        "Description"
+                        "Avacado Boba"
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }

@@ -36,21 +36,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:src="@drawable/boba1" />
+                    android:src="@drawable/expresso1" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:paddingTop="10dp"
-                    android:text="Avacado Expresso"
+                    android:text="Hot espresso"
                     android:textSize="14sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:text="@string/withOatMilk"
+                    android:text="Premium roast"
                     android:textSize="12sp" />
 
                 <RelativeLayout
@@ -72,7 +72,7 @@
                         android:layout_centerVertical="true"
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
-                        android:text="@string/val5_99" />
+                        android:text="2.99" />
 
                     <ImageView
                         android:id="@+id/addIcon1"
@@ -112,21 +112,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:src="@drawable/mangoboba_1__1_" />
+                    android:src="@drawable/espresso2" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:paddingTop="10dp"
-                    android:text="Mango Expresso"
+                    android:text="Americano"
                     android:textSize="14sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:text="@string/withOatMilk"
+                    android:text="Premium roast"
                     android:textSize="12sp" />
 
                 <RelativeLayout
@@ -148,7 +148,7 @@
                         android:layout_centerVertical="true"
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
-                        android:text="@string/val5_99" />
+                        android:text="3.99" />
 
                     <ImageView
                         android:id="@+id/addIcon2"
