@@ -56,7 +56,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto"
-                        android:text="Quantity"
+                        android:text="Iced coffee"
                         android:textSize="16sp" />
 
                     <LinearLayout
@@ -104,11 +104,11 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical">
 
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/vecteezy_ai_generated_iced_coffee_splash_in_a_cup_with_coffee_beans_35906997_2" />
-
+                    android:src="@drawable/cart1" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -123,7 +123,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto"
-                        android:text="Quantity"
+                        android:text="Hot cappuccino"
                         android:textSize="16sp" />
 
                     <LinearLayout
@@ -174,7 +174,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/vecteezy_ai_generated_iced_coffee_splash_in_a_cup_with_coffee_beans_35906997_2" />
+                    android:src="@drawable/cart2" />
 
 
                 <LinearLayout
@@ -190,7 +190,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto"
-                        android:text="Quantity"
+                        android:text="Black coffee"
                         android:textSize="16sp" />
 
                     <LinearLayout
@@ -267,8 +267,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="50dp"
             android:fontFamily="@font/capriola"
-            android:text="5.99"
-            android:textSize="40sp"/>
+            android:text="12.99"
+            android:textSize="40sp" />
 
 
 
