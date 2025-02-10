@@ -45,7 +45,8 @@ public class ExpressoFragment extends Fragment {
                         "Hot espresso",
                         "Premium Toasted",
                         "Whole milk",
-                        "Savor the deep, bold essence of our Hot Espresso, a rich and aromatic brew crafted for true coffee lovers. Each sip is a smooth, invigorating experience, perfectly balancing intensity and warmth, making it the ultimate pick-me-up for espresso enthusiasts seeking pure coffee bliss."
+                        "Savor the deep, bold essence of our Hot Espresso, a rich and aromatic brew crafted for true coffee lovers. Each sip is a smooth, invigorating experience, perfectly balancing intensity and warmth, making it the ultimate pick-me-up for espresso enthusiasts seeking pure coffee bliss.",
+                        "2.99"
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }
@@ -60,7 +61,8 @@ public class ExpressoFragment extends Fragment {
                         "Americano",
                         "Premium Toasted",
                         "Whole milk",
-                        "Enjoy the crisp, smooth taste of our Americano, a perfectly balanced blend of rich espresso and hot water. Each sip delivers a bold yet mellow flavor, highlighting the deep, aromatic essence of coffee, making it the ideal choice for those who appreciate a pure, invigorating brew."
+                        "Enjoy the crisp, smooth taste of our Americano, a perfectly balanced blend of rich espresso and hot water. Each sip delivers a bold yet mellow flavor, highlighting the deep, aromatic essence of coffee, making it the ideal choice for those who appreciate a pure, invigorating brew.",
+                        "3.99"
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }

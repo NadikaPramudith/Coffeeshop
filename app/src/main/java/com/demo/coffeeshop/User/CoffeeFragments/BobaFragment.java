@@ -43,7 +43,8 @@ public class BobaFragment extends Fragment {
                         "Avacado Boba",
                         "Boba Pearls",
                         "Oat Milk",
-                        "Delight in the creamy, refreshing taste of our Avocado Boba, a perfect fusion of rich avocado, smooth milk, and chewy tapioca pearls. Each sip offers a luscious, velvety texture with a hint of natural sweetness, making it the ultimate treat for boba lovers seeking a unique and indulgent experience."
+                        "Delight in the creamy, refreshing taste of our Avocado Boba, a perfect fusion of rich avocado, smooth milk, and chewy tapioca pearls. Each sip offers a luscious, velvety texture with a hint of natural sweetness, making it the ultimate treat for boba lovers seeking a unique and indulgent experience.",
+                        "6.99"
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }
@@ -58,7 +59,8 @@ public class BobaFragment extends Fragment {
                         "Coffee Boba2",
                         "Boba Pearls",
                         "Oat Milk",
-                        "Enjoy the tropical, refreshing taste of our Mango Boba, a perfect blend of juicy mango, creamy milk, and chewy tapioca pearls. Each sip bursts with sweet, vibrant flavor and a smooth, luscious texture, making it the ultimate treat for boba lovers craving a fruity and delightful experience."
+                        "Enjoy the tropical, refreshing taste of our Mango Boba, a perfect blend of juicy mango, creamy milk, and chewy tapioca pearls. Each sip bursts with sweet, vibrant flavor and a smooth, luscious texture, making it the ultimate treat for boba lovers craving a fruity and delightful experience.",
+                        "12.99"
                 );
                 activity.navigateToFragment(coffeeDetailsFragment, R.id.buynow);
             }

@@ -28,12 +28,15 @@ public class CoffeeDetailsFragment extends Fragment {
     private String toast;
     private String milk;
     private String description;
+    private String coffeePrice;
+
+
 
     public CoffeeDetailsFragment() {
         // Required empty public constructor
     }
 
-    public static CoffeeDetailsFragment newInstance(int imageResourceId, String name, String toast, String milk, String description) {
+    public static CoffeeDetailsFragment newInstance(int imageResourceId, String name, String toast, String milk, String description, String coffeePrice) {
         CoffeeDetailsFragment fragment = new CoffeeDetailsFragment();
         Bundle args = new Bundle();
         args.putInt("imageResourceId", imageResourceId); // Use resource ID
@@ -41,6 +44,7 @@ public class CoffeeDetailsFragment extends Fragment {
         args.putString("toast", toast);
         args.putString("milk", milk);
         args.putString("description", description);
+        args.putString("coffeePrice", coffeePrice);
         fragment.setArguments(args);
         return fragment;
     }
@@ -56,6 +60,8 @@ public class CoffeeDetailsFragment extends Fragment {
             toast = getArguments().getString("toast");
             milk = getArguments().getString("milk");
             description = getArguments().getString("description");
+            coffeePrice = getArguments().getString("coffeePrice");
+
         }
     }
 
@@ -104,5 +110,8 @@ public class CoffeeDetailsFragment extends Fragment {
         // Update the description text
         TextView descriptionText = view.findViewById(R.id.descriptionText);
         descriptionText.setText(description);
+        // Update the coffee price
+        TextView coffeePriceText = view.findViewById(R.id.coffeePrice);
+        coffeePriceText.setText(coffeePrice);
     }
 }
